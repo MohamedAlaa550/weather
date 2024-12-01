@@ -86,7 +86,8 @@ body .home-page nav .logo-img{
     cursor: pointer;
 }
 
-.home-page .input input {
+.home-page .input input,
+footer .input input {
     width: 100%;
     padding: 15px;
     background-color: #1E202B;
@@ -185,6 +186,62 @@ border: 0;
 .last-card .card-body{
     background-color: #323544;
 }
+
+footer {
+background-color: #262936;
+}
+
+footer .input {
+    position: relative;
+}
+
+footer .input button,
+.home-page .input button{
+    background-color: #009ad8;
+    color: white;
+    border: 0;
+    padding-inline: 15px;
+    padding-block: 10px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+footer .social-icons {
+
+}
+
+footer .social-icons i{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background-color: #1E202B;
+    color: #009ad8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-inline: 5px;
+}
+
+footer .copyright{
+    color:  rgb(191, 193, 200);
+    margin-top: 25px;
+    font-size: .875rem;
+}
+
+.home-page .input button {
+    padding-inline: 35px;
+}
+
+
 
 
 
