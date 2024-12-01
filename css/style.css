@@ -1,0 +1,199 @@
+body{
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit !important;
+}
+
+
+.home-page{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.4) 0% 100%) , url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+body .home-page nav{
+    background-color: #1E202B;
+    color: white;
+}
+
+body .home-page nav .nav-item{
+    margin-inline: 10px;
+}
+
+body .home-page nav .nav-item .nav-link{
+    font-size: .875rem;
+    padding-inline: 25px;
+    padding-block: 5px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+body .home-page nav .nav-item .nav-link:hover{
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+body .home-page nav .nav-item .active{
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+body .home-page nav .logo{
+    margin-left: 20px;
+}
+
+body .home-page nav .logo .navbar-brand {
+    font-size: 1rem;
+}
+
+body .home-page nav .logo span{
+    font-size: .625rem;
+    cursor: pointer;
+    color: #bfc1c8;
+}
+
+
+
+body .home-page nav .logo-img{
+    color: #009ad8;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.home-page .input input {
+    width: 100%;
+    padding: 15px;
+    background-color: #1E202B;
+    border: 0;
+    outline: 0;
+    caret-color: white;
+    color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.first-card,
+.middle-card,
+.last-card {
+color: #bfc1c8;
+border: 0;
+}
+.first-card .card-header{
+    background-color: #2D303D;
+}
+
+.first-card .card-body{
+    background-color: #323544;
+}
+
+.first-card .card-body .tempreture{
+    font-size: 90px;
+    color: white;
+    font-weight: 700;
+}
+
+.first-card .card-body .icon-status{    
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    scale: 1.5;
+}
+
+.first-card .card-body .status {
+    color: #009ad8;
+    font-size: .875rem;
+    margin-bottom: 15px;
+}
+
+.first-card .card-body .icons i {
+    padding-inline: 10px;
+}
+
+
+
+.middle-card .card-header{
+    background-color: #222530;
+}
+
+.middle-card .card-body{
+    background-color: #262936;
+}
+
+.middle-card .card-body img,
+.last-card .card-body img{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    scale: .75;
+    
+}
+
+.middle-card .card-body .high-tempreture,
+.last-card .card-body .high-tempreture{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.middle-card .card-body .low-tempreture,
+.last-card .card-body .low-tempreture{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #bfc1c8;
+}
+
+.middle-card .card-body .status,
+.last-card .card-body .status{
+    color:#009ad8 ;
+}
+
+.last-card .card-header{
+    background-color: #2D303D;
+    color: #bfc1c8;
+}
+
+.last-card .card-body{
+    background-color: #323544;
+}
+
+
+
+
+
+
+
+
+
+
+
+
