@@ -4,16 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/fav icon.png" type="image/x-icon">
 </head>
 
 <body>
+    <section class="home-page pb-5">
+
+        <!-- start navbar  -->
+        <nav class="navbar navbar-expand-lg  py-4">
+            <div class="container">
+                <div>
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="logo d-flex flex-column">
+                    <a class="navbar-brand" href="#">Weather</a>
+                    <span>tagline goes here</span>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- end navbar  -->
+
+        <!-- start home-page  -->
+
+        <div class="container">
+            <div class="input position-relative">
+                <input type="search" class=" my-5" id="inputSearch" placeholder="Find your location...">
+                <button class="rounded-pill" id="searchBtn">Find</button>
+            </div>
+            <div class="row g-0 align-items-stretch" id="rowData">
+            </div>
+        </div>
+    </section>
+
+            <!-- start home-page  -->
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row  align-baseline">
+                <div class="col-lg-8">
+                    <div class="input">
+                        <input type="email" id="emailInput" class="w-100" placeholder="Enter your email to subscribe...">
+                        <button class="rounded-pill" id="subBtn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="social-icons d-flex justify-content-center">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                Copyright 2014 Company name. Designed by Themezy. All rights reserved
+            </p>
+        </div>
+    </footer>
+
+ 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
