@@ -57,7 +57,7 @@ function displayData() {
               <div class="card-body">
                   <h2 class="country fs-5 my-3">${weatherData.location.name}</h2>
                   <h2 class="tempreture">${weatherData.current.temp_c}<sup>o</sup>C</h2>
-                  <img src="${weatherData.current.condition.icon}" class="icon-status" alt="">
+                  <img src="https:${weatherData.current.condition.icon}" class="icon-status" alt="">
                   <h3 class="status fs-6">${weatherData.current.condition.text}</h3>
                   <div class="icons">
                       <span><i class="fa-solid fa-umbrella"></i>${weatherData.current.humidity}%</span>
@@ -73,7 +73,7 @@ function displayData() {
                   <span>${dayNames[1]}</span>
               </div>
               <div class="card-body">
-                  <img src="${weatherData.forecast.forecastday[1].day.condition.icon}" alt="">
+                  <img src="https:${weatherData.forecast.forecastday[1].day.condition.icon}" alt="">
                   <h2 class="high-tempreture">${weatherData.forecast.forecastday[1].day.maxtemp_c}<sup>o</sup>C</h2>
                   <h3 class="low-tempreture">${weatherData.forecast.forecastday[1].day.mintemp_c}<sup>o</sup>C</h3>
                   <h3 class="status fs-6">${weatherData.forecast.forecastday[1].day.condition.text}</h3>
@@ -86,7 +86,7 @@ function displayData() {
                   <span>${dayNames[2]}</span>
               </div>
               <div class="card-body">
-                  <img src="${weatherData.forecast.forecastday[2].day.condition.icon}" alt="">
+                  <img src="https:${weatherData.forecast.forecastday[2].day.condition.icon}" alt="">
                   <h2 class="high-tempreture">${weatherData.forecast.forecastday[2].day.maxtemp_c}<sup>o</sup>C</h2>
                   <h3 class="low-tempreture">${weatherData.forecast.forecastday[2].day.mintemp_c}<sup>o</sup>C</h3>
                   <h3 class="status fs-6">${weatherData.forecast.forecastday[2].day.condition.text}</h3>
