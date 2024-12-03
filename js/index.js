@@ -19,7 +19,7 @@ async function getUserLocation() {
 
 async function weatherInfoByName(location = "Cairo") {
     try {
-        let weather = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=e9667641f0bd403ca04185808240112&q=${location}&days=3`);
+        let weather = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=e9667641f0bd403ca04185808240112&q=${location}&days=3`);
         weatherData = await weather.json();
         displayData();
     } catch (error) {
