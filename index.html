@@ -59,52 +59,7 @@
                 <input type="search" class=" my-5" id="inputSearch" placeholder="Find your location...">
                 <button class="rounded-pill" id="searchBtn">Find</button>
             </div>
-            <div class="row g-0 align-items-stretch">
-                <div class="col-lg-4">
-                    <div class="card first-card h-100">
-                        <div class="card-header d-flex justify-content-between">
-                            <span>today</span>
-                            <span>date</span>
-                        </div>
-                        <div class="card-body">
-                            <h2 class="country fs-5 my-3">Cairo</h2>
-                            <h2 class="tempreture">15.3 c</h2>
-                            <img src="images/moon.webp " class="icon-status" alt="">
-                            <h3 class="status fs-6">Clear</h3>
-                            <div class="icons">
-                                <span><i class="fa-solid fa-umbrella"></i>20$</span>
-                                <span><i class="fa-solid fa-wind"></i>18km/h </span>
-                                <span><i class="fa-regular fa-compass"></i>East</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card middle-card text-center h-100">
-                        <div class="card-header">
-                            <span>Monday</span>
-                        </div>
-                        <div class="card-body">
-                            <img src="images/sun.webp" alt="">
-                            <h2 class="high-tempreture">15.3 c</h2>
-                            <h3 class="low-tempreture">13.8o</h3>
-                            <h3 class="status fs-6">Clear</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card last-card text-center h-100">
-                        <div class="card-header">
-                            <span>Tuseday</span>
-                        </div>
-                        <div class="card-body">
-                            <img src="images/sun.webp" alt="">
-                            <h2 class="high-tempreture">15.3 c</h2>
-                            <h3 class="low-tempreture">13.8o</h3>
-                            <h3 class="status fs-6">Clear</h3>
-                        </div>
-                    </div>
-                </div>
+            <div class="row g-0 align-items-stretch" id="rowData">
             </div>
         </div>
     </section>
@@ -131,11 +86,12 @@
                 Copyright 2014 Company name. Designed by Themezy. All rights reserved
             </p>
         </div>
-
     </footer>
 
+ 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
